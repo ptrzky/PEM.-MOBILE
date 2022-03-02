@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="273dp"
+        android:layout_height="22dp"
+        android:fontFamily="serif-monospace"
+        android:text="Biodata Putri Rezky Ameilya B."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="141dp"
+        android:layout_height="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/formal" />
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="248dp"
+        android:layout_height="415dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Nama : Putri Rezky Ameilya B.  " />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="TTL : Makassar, 29 Mei 2002" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Jenis Kelamin : Perempuan " />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Agama : Islam" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Institusi : Universitas Hasanuddin" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="No Telepon : +6285255304416" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Nim  : H071201078" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Prodi/Kelas : Ilmu Komputer/B" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:textColor="@color/black"
+            android:text="Hobby : - "/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motto : be the best you can be dan berusalah selagi kamu bisa jatuh bangun lagi karena tidak semua orang langsung berada di puncak"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
